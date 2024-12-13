@@ -1,0 +1,618 @@
+
+{
+    "company_info": {
+        "overview": "TEKHAF Trading PLC was established in 2012 by two entrepreneurial brothers and has since become a multifaceted entity in Ethiopia's commercial landscape. Originally focusing on sourcing and delivering high-quality raw materials and goods, the company has significantly expanded its operations to include agriculture, transportation, manufacturing, and construction. This diversification, coupled with a well-established import and export service, positions TEKHAF as a comprehensive solution provider for a variety of business needs.",
+        "background": "TEKHAF Trading PLC was founded with the vision to lead in trading quality raw materials and goods. Over the years, the company has grown to become a prominent member of the Corporate Group. Its journey reflects an unwavering commitment to trust and reliability, which has fueled its expansion across multiple sectors. By cultivating a network of autonomous companies excelling in manufacturing and construction, TEKHAF has solidified its presence in agriculture and transportation. This strategy allows the company to act as a one-stop shop for diverse business requirements.",
+        "what_we_do": "TEKHAF specializes in importing and exporting loaders, excavators, mixers, and other earth-moving machinery, along with pickup trucks, transport vehicles, and their respective accessories. Operating across Ethiopia, Djibouti, and Kenya, the company provides tailored solutions to meet the specific needs of its clients in these regions. TEKHAF aligns its vision with that of its partners, effectively becoming an extension of their teams and helping them achieve their goals.",
+        "quality_policy": "TEKHAF Trading PLC is committed to providing transport services and trading in export and import products that satisfy and exceed customer expectations. The company builds mutually beneficial relationships with both internal and external customers, as well as with local and international suppliers, by effectively involving its people at every level. The top management is dedicated to continuously improving the quality of products and services through the implementation of the ISO 9001:2015 Quality Management System. TEKHAF conforms to Health, Safety, Environment, and Quality (HSEQ) standards and other legal requirements. Key strategies include delivering high-quality products and services, expanding the business portfolio, and enhancing organizational capabilities. The company also conducts ongoing awareness campaigns to instill a strong quality mindset and establish a quality-driven culture.",
+        "our_team": "TEKHAF's team is composed of highly skilled professionals across each of its autonomous companies. This reflects the company’s philosophy of never compromising on the quality of its solutions. The collaborative spirit of its team ensures a resourceful network working in unison to deliver exceptional service to clients. TEKHAF prioritizes building long-term partnerships based on trust, aligning its vision with that of its partners to effectively become an extension of their teams and driving them toward success.",
+        "summary": "In summary, TEKHAF Trading PLC is a testament to visionary growth and unwavering reliability. The company provides comprehensive solutions that transcend borders and consistently exceed expectations, establishing itself as a key player in Ethiopia’s commercial and industrial sectors."
+    },
+    "products": [
+        {
+            "title": "Sonalika 20HP Tractor",
+            "category": "Tractors",
+            "description": "TEKHAF Trading PLC’s Sonalika 20HP Tractor is a reliable and powerful machine designed to tackle diverse agricultural tasks efficiently.",
+            "image_link": "https://photos.app.goo.gl/X566oYw3T7nLW6j8A",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_8",
+            "detailed_description": {
+                "Engine": {
+                    "Horsepower": "20 HP",
+                    "Engine Capacity": "952 cc - 979 cc (depending on source)",
+                    "Number of Cylinders": "3",
+                    "Engine Rated RPM": "2700 RPM",
+                    "Air Filter": "Oil Bath with Pre-cleaner",
+                    "Cooling System": "Water Cooled"
+                },
+                "Transmission": {
+                    "Transmission Type": "Sliding Mesh with Centre Shift",
+                    "Number of Gears": "6 Forward + 2 Reverse",
+                    "PTO": "540 & 540E (Power Take Off)"
+                },
+                "Hydraulics": {
+                    "Lifting Capacity": "650 Kg"
+                },
+                "Brakes": {
+                    "Brake Type": "Oil Immersed Brakes (OIB)"
+                },
+                "Steering": {
+                    "Steering Type": "Mechanical Steering"
+                },
+                "Tyres": {
+                    "Front Tyres": "127mm - 304.8mm (5.0 - 12) / 132.08mm - 355.6mm (5.20 - 14)",
+                    "Rear Tyres": "203.2mm - 457.2mm / 210.82mm - 508mm (8.0-18 / 8.3-20)"
+                },
+                "Additional Information": {
+                    "Weight": "820 Kg (approximately)",
+                    "Applications": "Sprayer, Plough, Cultivator, Rotavator, Haulage"
+                },
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika 26HP Tractor",
+            "category": "Tractors",
+            "description": "The Sonalika 26HP Tractor offers reliable performance and fuel efficiency, designed to handle various agricultural tasks with ease.",
+            "image_link": "https://photos.app.goo.gl/UegvsFvsM4y5rvea9",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_9",
+            "detailed_description": {
+                "Engine": {
+                    "Engine Type": "Mitsubishi 3 Cylinder Engine (reliable and fuel-efficient)",
+                    "Rated HP": "26 HP (provides sufficient power for various agricultural tasks)",
+                    "Engine Rated RPM": "2700 RPM (delivers optimal engine performance)",
+                    "Air Cleaner": "Dry Type with Clogging Sensor (reduces maintenance requirements)",
+                    "Cooling System": "Coolant Cooled (maintains consistent engine temperature)"
+                },
+                "Transmission": {
+                    "Transmission Type": "Sliding Mesh with Side Shift (reliable and easy to operate)",
+                    "Number of Gears": "6 Forward + 2 Reverse (offers a variety of speeds for different applications)",
+                    "Optional Transmission": "12 Forward + 4 Reverse (increased gear options for more precise control)",
+                    "Clutch": "Single Clutch (simple and efficient)"
+                },
+                "Power Take-Off (PTO)": {
+                    "PTO Speed": "540/540E RPM (compatible with a wide range of implements)",
+                    "PTO HP": "22 HP (delivers sufficient power to drive various agricultural attachments)"
+                },
+                "Hydraulics": {
+                    "Lift Capacity": "750 Kg (or 850 Kg depending on the source) (handles a variety of implements and attachments)",
+                    "3 Point Linkage": "Cat-I (compatible with most common agricultural implements)"
+                },
+                "Brakes": {
+                    "Brake Type": "Oil Immersed Brakes (durable and provide good stopping power)"
+                },
+                "Steering": {
+                    "Steering Type": "Power Steering (improves maneuverability and reduces operator fatigue)"
+                },
+                "Electrical": {
+                    "Battery": "12V, 65Ah (provides ample power for electrical components)"
+                },
+                "Dimensions and Weight": {
+                    "Weight": "Approximately 960 Kg (manageable weight for various terrains)",
+                    "Turning Radius (Without Brakes)": "2.3 meters (offers good maneuverability in tight spaces)"
+                },
+                "Tyres": {
+                    "Front Tyres": "152.4mm - 304.8mm (6.00 - 12) (provides good traction and ground clearance)",
+                    "Rear Tyres": "210.82mm – 508mm (8.3-20) / 210.82mm - 508mm (8.3-24*) (larger rear tyres for improved stability and load handling) *Optional"
+                },
+                "Additional Features (depending on the model)": [
+                    "Twin Barrel Headlamps (improves visibility during night operation)",
+                    "High Stance Seating (enhances operator comfort)",
+                    "Premium Chrome Trims (aesthetic appeal)",
+                    "Multi-Function Console (convenient control of various functions)",
+                    "Plush Branded Seats (increased operator comfort)"
+                ],
+                "Benefits of the Sonalika 26HP Tractor": [
+                    "Ideal for small and medium-sized farms",
+                    "Powerful and fuel-efficient engine",
+                    "Reliable and easy-to-operate transmission",
+                    "Versatile PTO for various implements",
+                    "Efficient hydraulic system for implement operation",
+                    "Durable brakes for safe operation",
+                    "Power steering for improved maneuverability",
+                    "Comfortable operator environment (depending on the model)"
+                ],
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika 50HP Tractor",
+            "category": "Tractors",
+            "description": "The Sonalika 50HP Tractor is renowned for its robust build and powerful engine, designed to tackle diverse agricultural tasks efficiently.",
+            "image_link": "https://photos.app.goo.gl/JYXbYXTirwpWn11G9",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_10",
+            "detailed_description": {
+                "Engine": {
+                    "Engine Type": "Three Cylinder Naturally Aspirated Engine (model may vary)",
+                    "Engine Rated RPM": "2000 RPM (may vary)",
+                    "HP Category": "50 HP"
+                },
+                "Transmission": {
+                    "Drive": "2WD (Optional 4WD on some models)",
+                    "Transmission Type": "Constant Mesh with Side Shift (Optional Heavy Duty Constant Mesh with Side Shift on some models)",
+                    "Forward Gears": "8",
+                    "Reverse Gears": "2"
+                },
+                "Brakes": {
+                    "Brakes": "Oil Immersed Brakes"
+                },
+                "PTO (Power Take Off)": {
+                    "PTO RPM": "540 RPM (may vary)"
+                },
+                "Hydraulics": {
+                    "3 Point Linkage": "CAT-II"
+                },
+                "Other Specifications": {
+                    "Steering": "Mechanical (Optional Power Steering on some models)",
+                    "Battery": "12V, 88 Ah (may vary)",
+                    "Turning Radius (Without Brakes)": "3.7 meters (may vary)",
+                    "Front Tyre Size": "Options may include 9.5-20 or 190.5mm - 406.4mm (7.50 - 16)",
+                    "Rear Tyre Size": "Options may include 378.46mm - 711.2mm (14.9 - 28) / 429.26mm - 711.2mm (16.9 - 28) or 340/85R28 (radial option)",
+                    "Weight": "2780 kg (may vary)",
+                    "Fuel Tank Capacity": "+/- 65 liters (may vary)",
+                    "Lifting Capacity": "Options may include 1600 Kg or 2000 Kg"
+                },
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika 75HP Tractor",
+            "category": "Tractors",
+            "description": "The Sonalika 75HP Tractor is built for high-performance tasks, offering robust power and efficiency for large-scale farming operations.",
+            "image_link": "https://photos.app.goo.gl/nYhvzQcdEhG4wnCf8",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_11",
+            "detailed_description": {
+                "Engine": {
+                    "Horsepower (HP)": "75",
+                    "Engine Type": "4 Cylinder, Water-cooled",
+                    "Rated RPM": "2200"
+                },
+                "Transmission": {
+                    "Transmission Type": "Constant Mesh with Side Shift and Synchro Shuttle",
+                    "Number of Gears": "12 Forward + 12 Reverse"
+                },
+                "PTO (Power Take Off)": {
+                    "PTO Speed": "540 RPM"
+                },
+                "Hydraulics": {
+                    "Lift Capacity": "2200 kg"
+                },
+                "Other Specifications": {
+                    "Steering": "Power Steering",
+                    "Front Tyre Size": "284.5mm - 609.6mm (11.2 - 24)",
+                    "Rear Tyre Size": "429.26mm - 762mm (16.9 - 30)",
+                    "Optional Features": "Canopy"
+                },
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika 90HP Tractor",
+            "category": "Tractors",
+            "description": "The Sonalika 90HP Tractor combines power and versatility, ideal for handling heavy-duty agricultural tasks with ease.",
+            "image_link": "https://photos.app.goo.gl/HFL6dCCLCWdFUVTu5",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_12",
+            "detailed_description": {
+                "Engine": {
+                    "Engine Type": "4 Cylinder Turbocharged",
+                    "Rated Engine Power": "90 HP",
+                    "Engine Capacity": "4087 CC"
+                },
+                "Transmission": {
+                    "Drive": "4WD (Optional: 2WD)",
+                    "Number of Gears": {
+                        "Forward": "12",
+                        "Reverse": "12"
+                    }
+                },
+                "Brakes": {
+                    "Brakes": "Oil Immersed Brakes"
+                },
+                "PTO (Power Take Off)": {
+                    "PTO RPM": "540/540E & 540/1850 (Optional)"
+                },
+                "Steering": {
+                    "Steering Type": "Power Steering"
+                },
+                "Electrical": {
+                    "Battery": "12V, 110 Ah (or 88Ah depending on the source)"
+                },
+                "Hydraulics": {
+                    "3 Point Linkage": "Category II"
+                },
+                "Dimensions and Weight": {
+                    "Weight": "3570 Kg (Optional: 3155 Kg for 4WD version)",
+                    "Turning Radius (without brakes)": {
+                        "Left Hand Side": "6.13 meters",
+                        "Right Hand Side": "6.18 meters"
+                    }
+                },
+                "Tyres": {
+                    "Front": "12.4 - 24",
+                    "Rear": "18.4 - 30"
+                },
+                "Additional Features": {
+                    "Optional Features": "Cabin, Canopy",
+                    "Fuel Tank Capacity": "65 Liters",
+                    "Differential Lock": "Standard, Foot Operated"
+                },
+                "Safety Features": {
+                    "PTO Safety Switch": "Standard"
+                },
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika 110HP Tractor",
+            "category": "Tractors",
+            "description": "The Sonalika 110HP Tractor is engineered for maximum performance, suitable for large-scale agricultural operations requiring high power and efficiency.",
+            "image_link": "https://photos.app.goo.gl/9HyogXJHaXzuQkJx7",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_13",
+            "detailed_description": {
+                "Engine": {
+                    "Engine Type": "Powerful 4 Cylinder Engine",
+                    "Rated Engine HP": "110 HP",
+                    "Aspiration": "Turbocharged with Intercooler (TCIC)",
+                    "Rated RPM": "2200 RPM"
+                },
+                "Transmission": {
+                    "Drive": "4WD (Four-Wheel Drive)",
+                    "Clutch": "Double Clutch",
+                    "Gearbox": "Synchromesh",
+                    "Maximum Speed": "Up to 36.58 Km/hr (at 2200 RPM)"
+                },
+                "Hydraulics": {
+                    "Position Control": "Standard"
+                },
+                "Brakes": {
+                    "Brakes": "Oil Immersed Brakes",
+                    "Differential Lock": "Standard (Electrically Operated Switch)"
+                },
+                "PTO (Power Take-Off)": {
+                    "PTO RPM": "540/540E",
+                    "PTO Actuation": "Mechanical"
+                },
+                "Steering": {
+                    "Steering Type": "Power Steering"
+                },
+                "Electrical": {
+                    "Battery": "12V, 110Ah",
+                    "Alternator": "12V, 90Amp",
+                    "Seven-pin trailer socket": "Standard"
+                },
+                "Capacity (Approx.)": {
+                    "Fuel Tank": "117 Liters"
+                },
+                "Tires": {
+                    "Front": "380/85R24",
+                    "Rear": "460/85R34"
+                },
+                "Dimensions and Weight (Approx.)": {
+                    "Gross Weight": "4250 Kg (with standard tires)"
+                },
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika 125HP Tractor",
+            "category": "Tractors",
+            "description": "The Sonalika 125HP Tractor is the epitome of power and performance, designed for the most demanding agricultural tasks.",
+            "image_link": "https://photos.app.goo.gl/TtkUkPu57f7A4noF9",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_HP_Tractor_14",
+            "detailed_description": {
+                "Engine": {
+                    "Engine Type": "125 HP Powerful 6 Cylinder Engine (Turbocharged with Intercooler)",
+                    "Displacement": "6127 cc",
+                    "Aspiration": "Turbocharged with Intercooler",
+                    "Rated RPM": "2200",
+                    "Air Cleaner": "Three-stage dry type"
+                },
+                "Transmission": {
+                    "Drive": "4WD (Four-Wheel Drive)",
+                    "Clutch": "Not specified"
+                },
+                "Performance": {
+                    "Maximum Forward Speed": "40 Km/hr"
+                },
+                "Hydraulics": {
+                    "Position & Draft Control": "Electronic Lift (EHR)",
+                    "Hydraulic Lifting Capacity": "4500 Kg"
+                },
+                "Other Specifications": {
+                    "Brakes": "Wet Disk Brakes",
+                    "Differential Lock": "Standard (Electrical Switch Operated)",
+                    "PTO (Power Take Off)": "540/540E RPM",
+                    "Steering": "Power Steering (Electrical)",
+                    "Battery": "12V, 110Ah",
+                    "Fuel Tank Capacity": "150 Liters (Approx.)"
+                },
+                "Dimensions and Weight": {
+                    "Gross Weight": "4665 Kg",
+                    "Wheelbase": "2645 mm",
+                    "Overall Length": "4660 mm",
+                    "Overall Width": "2260 mm",
+                    "Height": "2660 mm",
+                    "Ground Clearance": "488 mm",
+                    "Front Track Width": "1760 mm",
+                    "Rear Track Width": "1724 mm"
+                },
+                "Tyres": {
+                    "Front": "380/85R24",
+                    "Rear": "460/85R34"
+                },
+                "Optional Features": {
+                    "Front Mudguard": "Available"
+                },
+                "commitment": {
+                    "Quality and Support": "TEKHAF prioritizes providing high-quality Sonalika tractors backed by reliable after-sales support and spare parts availability.",
+                    "Empowering Farmers": "TEKHAF aims to empower Ethiopian farmers by equipping them with the tools they need to increase productivity and achieve better yields.",
+                    "Benefits for Ethiopian Farmers": [
+                        "Increased efficiency: Sonalika tractors can help farmers work faster and cover more ground, improving overall farm productivity.",
+                        "Reduced costs: Fuel efficiency and a focus on spare parts availability contribute to lower operating costs for farmers.",
+                        "Improved livelihoods: By equipping farmers with advanced machinery, TEKHAF contributes to improved livelihoods and agricultural development in Ethiopia."
+                    ]
+                },
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your Sonalika tractor requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "MB Plough",
+            "category": "Implements",
+            "description": "The MB Plough is a workhorse in the world of agriculture, offering deep tillage to enhance soil health and crop productivity.",
+            "image_link": "https://photos.app.goo.gl/Uz9qtj9UfADCh5J8A",
+            "product_url": "https://tekhaftrading.com/products/MB_Plough_3",
+            "detailed_description": {
+                "Key Features": [
+                    "Deep tillage: Excels at breaking up and turning over the top layer of soil.",
+                    "Nutrient exposure: Fresh, unturned soil layers are brought to the surface, providing essential nutrients to your crops.",
+                    "Weed control: Buried weeds and crop residue are brought to the top, where they can decompose or be easily removed, reducing competition for your new crop.",
+                    "Improved aeration: Deep tilling loosens the soil, allowing for better air circulation. This promotes healthy root growth and optimizes water drainage.",
+                    "Enhanced moisture retention: Loose soil allows water to infiltrate more deeply, improving your soil's ability to retain moisture throughout the growing season.",
+                    "Durability: MB Ploughs are built tough to handle heavy loads and demanding work conditions."
+                ],
+                "Investing in a Productive Future": "By incorporating an MB Plough into your land preparation routine, you're setting your crops up for success. Improved soil health leads to better root development, stronger plants, and ultimately, a more bountiful harvest.",
+                "Additional Points": [
+                    "Ideal for initial soil preparation, especially for fields that haven't been tilled in a while.",
+                    "Available in various sizes and configurations to suit different farms and soil types."
+                ],
+                "commitment": "TEKHAF Trading PLC has this MB Plough ready for you.",
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your MB Plough requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "TEKHAF Spare Parts",
+            "category": "Spare Parts",
+            "description": "TEKHAF spare parts: keep your equipment running smoothly with our comprehensive selection of high-quality components.",
+            "image_link": "https://photos.app.goo.gl/J3Y7nqPzGT8sFZFS6",
+            "product_url": "https://tekhaftrading.com/products/TEKHAF_spare_parts_6",
+            "detailed_description": {
+                "Overview": "TEKHAF is your one-stop shop for all your tractors', heavy machinery, and transportation spare part needs. We understand the importance of keeping your equipment operational and minimizing downtime.",
+                "Spare Parts Categories": [
+                    "Engine spare parts: Pistons, filters, gaskets, bearings, and more.",
+                    "Transmission spare parts: Clutches, gears, synchronizers, and seals.",
+                    "Brake system parts: Brake pads, shoes, drums, discs, calipers, and master cylinders.",
+                    "Hydraulic spare parts: Pumps, valves, hoses, filters, and cylinders.",
+                    "Axle spare parts: Bearings, seals, gears, and shafts for front and rear axles.",
+                    "Differential spare parts: Gears, bearings, and carriers for both front and rear differentials.",
+                    "Steering spare parts: Steering gearboxes, tie rods, drag links, ball joints, and pumps.",
+                    "Air intake spare parts: Air filters, hoses, and clamps.",
+                    "Air exhaust spare parts: Exhaust manifolds, pipes, mufflers, and related components.",
+                    "Fuel line spare parts: Fuel lines, filters, pumps, and injectors."
+                ],
+                "Benefits of Choosing TEKHAF Spare Parts": [
+                    "Extensive inventory to meet the needs of various equipment makes and models.",
+                    "Quality assurance from reliable suppliers for optimal performance and durability.",
+                    "Competitive prices to minimize operational costs.",
+                    "Expert support from qualified professionals to assist you in finding the right spare parts."
+                ],
+                "call_to_action": "Get a Quote Today! Don't let a missing spare part sideline your operations. Contact TEKHAF today to find the parts you need. We offer efficient delivery solutions to ensure you receive your parts promptly."
+            }
+        },
+        {
+            "title": "Liquid Transport Solutions",
+            "category": "Transport",
+            "description": "Safe and efficient liquid transport solutions across various industries with TEKHAF's comprehensive range of services.",
+            "image_link": "https://photos.app.goo.gl/M8T3vx3J7sawwxVe9",
+            "product_url": "https://tekhaftrading.com/products/Liquid_transport_solutions_7",
+            "detailed_description": {
+                "Our Services": [
+                    "Bulk liquid transportation with well-maintained and inspected tanker trucks.",
+                    "Specialized tanker trucks for specific cargo types, including temperature-controlled and insulated tankers.",
+                    "Drum and container transportation for smaller-scale liquid transport needs.",
+                    "Logistics and route planning for efficient and cost-effective transportation.",
+                    "Loading and unloading services to ensure safe and efficient transfer of liquids."
+                ],
+                "TEKHAF Advantages": [
+                    "Safety first with adherence to the highest industry standards and regulations.",
+                    "Expert team well-versed in liquid transportation regulations and best practices.",
+                    "Reliable equipment to ensure smooth operations and minimize breakdowns.",
+                    "Commitment to efficiency for on-time delivery.",
+                    "Customizable solutions tailored to specific needs."
+                ],
+                "Industries We Serve": [
+                    "Chemical industry",
+                    "Food and beverage industry",
+                    "Oil and gas industry",
+                    "Pharmaceutical industry",
+                    "Construction industry",
+                    "Manufacturing industry",
+                    "Agriculture industry"
+                ],
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your liquid transport requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Dry Cargo Transport",
+            "category": "Transport",
+            "description": "TEKHAF cargo transport: delivering more than just cargo with efficient and secure transportation services.",
+            "image_link": "https://photos.app.goo.gl/gt1fZKwN44sduXcf8",
+            "product_url": "https://tekhaftrading.com/products/cargo_transport_4",
+            "detailed_description": {
+                "Serving Diverse Needs": [
+                    "General cargo transportation ensuring goods arrive in pristine condition.",
+                    "Bulk transport for large quantities of grain, fertilizer, or other bulk materials.",
+                    "Temperature-controlled transport for perishables or temperature-sensitive goods."
+                ],
+                "Our Cargo Transport Services": [
+                    "Bulk cargo handling for a wide range of dry bulk cargo.",
+                    "Multimodal transportation combining land, sea, and air freight.",
+                    "Global network for handling complex logistics across borders.",
+                    "Customs clearance to minimize delays and ensure compliance.",
+                    "Cargo tracking and monitoring systems for real-time updates.",
+                    "Risk management strategies to minimize potential damage or loss."
+                ],
+                "Benefits of Choosing TEKHAF for Cargo Transport": [
+                    "Experience and expertise in handling shipments of all sizes.",
+                    "Cost-effectiveness with competitive rates and optimized routes.",
+                    "Flexibility to tailor services to specific needs.",
+                    "Safety and security prioritized throughout the transportation process.",
+                    "Reliable communication with clear and transparent updates."
+                ],
+                "Beyond the Destination": [
+                    "Route planning & optimization to minimize travel time and costs.",
+                    "Customs clearance services for seamless import or export.",
+                    "Warehousing & distribution with secure facilities.",
+                    "Real-time tracking of shipments 24/7."
+                ],
+                "Commitment to Your Success": "TEKHAF prioritizes safety, reliability, and customer satisfaction. Our experienced drivers and dedicated team are committed to exceeding your expectations.",
+                "call_to_action": "Get a Quote Today! Contact TEKHAF to discuss your cargo transport requirements. Our team will assess your needs and provide a customized solution."
+            }
+        },
+        {
+            "title": "Sonalika Agricultural Machinery",
+            "category": "Implements",
+            "description": "Empowering Ethiopian Farmers with Sonalika Agricultural Machinery through TEKHAF Ethiopia's diverse range of high-quality equipment.",
+            "image_link": "https://photos.app.goo.gl/YourSonalikaMachineryPhotoLinkHere",
+            "product_url": "https://tekhaftrading.com/products/Sonalika_Agricultural_Machinery",
+            "detailed_description": {
+                "Overview": "TEKHAF Ethiopia offers reliable, efficient, and robust Sonalika machinery tailored to address the unique challenges of Ethiopian farmers.",
+                "Products": [
+                    {
+                        "Product Name": "Sonalika Maize Sheller Cum Dehusker",
+                        "Key Features": [
+                            "Efficiently handles higher loads with minimal fuel consumption.",
+                            "Double-speed option for reduced breakage and optimal cleaning.",
+                            "Side-positioned elevator for easy loading into trolleys.",
+                            "Dedicated platform for easy feeding of maize.",
+                            "Versatile discharge options for processed grains.",
+                            "Equipped with a double fan system and sieve adjustment.",
+                            "Compact design ensuring reliable performance."
+                        ],
+                        "Technical Specifications": {
+                            "Dimensions (SLMSDT model)": "Length 3277 mm, Height 2006 mm, Width 1169 mm",
+                            "Power Source": "60 HP tractor or 10 HP engine",
+                            "Weight": "Approximately 1050 kg (SLMSDT), 800 kg (SLMSDE)",
+                            "Applications": "Maize shelling, dehusking, and cleaning"
+                        }
+                    },
+                    {
+                        "Product Name": "Sonalika Multi-Crop Thresher Engine Model",
+                        "Key Features": [
+                            "Robust frame with high-grade materials.",
+                            "Thresher chamber made from M.S. sheets of various thicknesses.",
+                            "Fitted with 18 high-quality bearings.",
+                            "Specially designed rotor mechanism.",
+                            "Cleaning system with oscillating mechanism and adaptable sieves.",
+                            "Heavy-duty flywheel ensuring stable operation."
+                        ],
+                        "Technical Specifications": {
+                            "Dimensions": "Length 84 inches, Height 51 inches, Width 40 inches",
+                            "Main Shaft": "Diameter 50 mm, Length 83 inches",
+                            "Weight": "Approximately 605 kg",
+                            "Applications": "Multi-crop threshing"
+                        }
+                    },
+                    {
+                        "Product Name": "Sonalika Multi-Crop Thresher Back Tokari Small",
+                        "Key Features": [
+                            "Strong frame with enhanced durability.",
+                            "Thresher chamber from durable sheet metal.",
+                            "Rotor mechanism with 94 blades.",
+                            "Cleaning system with adjustable sieves.",
+                            "Heavy-duty flywheel with 26-inch diameter.",
+                            "Compact dimensions for easy handling."
+                        ],
+                        "Technical Specifications": {
+                            "Dimensions": "Length 157 inches, Height 78 inches, Width 79 inches",
+                            "Bearings": "39 fitted bearings",
+                            "Weight": "Approximately 1990 kg (excluding tires)",
+                            "Applications": "Multi-crop threshing"
+                        }
+                    },
+                    {
+                        "Product Name": "Sonalika Parcha Model Thresher",
+                        "Key Features": [
+                            "Sturdy frame with high-quality materials.",
+                            "Thresher chamber made from M.S. sheets.",
+                            "Equipped with 52 studs and 16 blades.",
+                            "Cleaning system with oscillating mechanism.",
+                            "Heavy-duty flywheel with 32-inch diameter.",
+                            "Compact dimensions for easy transport."
+                        ],
+                        "Technical Specifications": {
+                            "Dimensions": "Length 109 inches, Height 60 inches, Width 38 inches",
+                            "Bearings": "22 fitted bearings",
+                            "Weight": "Approximately 1120 kg",
+                            "Applications": "Threshing a variety of crops"
+                        }
+                    }
+                ],
+                "TEKHAF Ethiopia’s Commitment to Farmers": "TEKHAF Ethiopia is dedicated to empowering farmers by providing advanced agricultural machinery that reduces labor, enhances efficiency, and improves productivity.",
+                "call_to_action": "For inquiries or to explore tailored solutions for your farming needs, contact TEKHAF Ethiopia today. Our expert team is committed to helping you succeed in your agricultural endeavors."
+            }
+        }
+    ]
+}
