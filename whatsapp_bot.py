@@ -1,12 +1,13 @@
+# whatsapp_bot.py
 import os
 import json
 import logging
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 from requests.exceptions import RequestException
 
-# Logging
+# Logging Configuration
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
@@ -18,12 +19,11 @@ API_ENDPOINT = os.getenv("API_ENDPOINT")  # Same endpoint as your Telegram bot
 if not API_ENDPOINT:
     raise ValueError("API_ENDPOINT environment variable not set.")
 
-# Twilio Credentials (OPTIONAL for sending proactive msgs; 
-# not strictly required if only responding via TwiML)
+# OPTIONAL Twilio credentials (only needed if you want to send proactive messages)
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID", "")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN", "")
 
-# Simple in-memory session store: { phone_number: session_data }
+# In-memory session: { phone_number: {some data} }
 SESSION_STORE = {}
 
 app = Flask(__name__)
@@ -31,25 +31,24 @@ app = Flask(__name__)
 @app.route("/whatsapp/webhook", methods=["POST"])
 def whatsapp_webhook():
     """
-    This endpoint receives incoming WhatsApp messages from Twilio 
-    and responds using TwiML. It emulates similar behavior as the Telegram bot.
+    Main webhook endpoint for incoming WhatsApp messages via Twilio.
     """
-    from_number = request.form.get("From")  # 'whatsapp:+1234567890'
-    message_body = request.form.get("Body")  # User's text message
-    latitude = request.form.get("Latitude")  # If location is sent
+    from_number = request.form.get("From")  # e.g. 'whatsapp:+1234567890'
+    message_body = request.form.get("Body")  # User's text
+    latitude = request.form.get("Latitude")  # Location fields if user shares location
     longitude = request.form.get("Longitude")
-    
-    # Identify the user session by phone number
+
+    # Identify user session by phone number
     session_id = from_number if from_number else "default_session"
     session_data = SESSION_STORE.get(session_id, {})
-    first_name = session_data.get("first_name", "")  # We don't get first_name automatically from WhatsApp
-    
-    # Twilio Response object
+    first_name = session_data.get("first_name", "")  # We don't auto-get a name from WhatsApp
+
+    # Twilio MessagingResponse
     resp = MessagingResponse()
-    
-    # If we see location data
+
+    # LOCATION handling (user shares location)
     if latitude and longitude:
-        # The user sent a location via WhatsApp
+        # Prepare payload for the chatbot API
         payload = {
             "session_id": session_id,
             "message": "Here is my location.",
@@ -64,58 +63,50 @@ def whatsapp_webhook():
             api_response.raise_for_status()
             data = api_response.json()
 
-            # Save session data
+            # Update session data if needed
             SESSION_STORE[session_id] = session_data
-            
-            # Build outgoing message from GPT
+
+            # Build GPT response
             gpt_response = data.get("reply", "")
-            # Add GPT response to Twilio message
             resp.message(gpt_response)
 
-            # If products are mentioned
+            # If any products are mentioned, attach them with images
             mentioned_products = data.get("mentioned_products", [])
             for product in mentioned_products:
-                # Send product info
                 product_title = product["title"]
                 product_desc = product["description"]
-                # Instead of inline buttons, we’ll prompt the user:
-                # "Reply: DETAILS {product_title} for more"
+                image_url = product.get("image_link", product.get("link", ""))
+
                 product_msg = (
                     f"*{product_title}*\n{product_desc}\n"
                     f"Reply with: DETAILS {product_title} to see more."
                 )
-                resp.message(product_msg)
+                msg = resp.message(product_msg)
+                if image_url:
+                    msg.media(image_url)
 
         except RequestException as e:
             logger.error(f"API request failed: {e}")
             resp.message("Sorry, I'm having trouble connecting to the server. Please try again later.")
 
     else:
-        # No location; treat the message as text
+        # TEXT handling
         if not message_body:
-            # If there's absolutely no text, respond politely
+            # No text provided
             resp.message("Hello! Please send your query or location.")
             return str(resp)
-        
-        # Check if user requested product details
-        # We look for messages like: "DETAILS ProductName"
-        if message_body.strip().upper().startswith("DETAILS"):
-            # The user wants more info about a specific product
-            try:
-                # e.g. "DETAILS Tractor" => product_title = "Tractor"
-                parts = message_body.split(" ", 1)  # split once
-                if len(parts) == 2:
-                    requested_product = parts[1].strip()
-                    response_text = get_product_details(requested_product)
-                    resp.message(response_text)
-                else:
-                    resp.message("Please specify which product details you want. Example: DETAILS Tractor")
-            except Exception as ex:
-                logger.error(f"Error retrieving product details: {ex}")
-                resp.message("Could not retrieve product details at the moment. Try again later.")
 
+        # Check if user requested details for a product: "DETAILS ProductName"
+        if message_body.strip().upper().startswith("DETAILS"):
+            parts = message_body.split(" ", 1)  # split into ["DETAILS", "ProductName..."]
+            if len(parts) == 2:
+                requested_product = parts[1].strip()
+                response_text = get_product_details(requested_product)
+                resp.message(response_text)
+            else:
+                resp.message("Please specify which product details you want, e.g. DETAILS Tractor")
         else:
-            # Normal user message -> forward to API
+            # Normal user message => forward to the chatbot API
             payload = {
                 "session_id": session_id,
                 "message": message_body,
@@ -126,62 +117,63 @@ def whatsapp_webhook():
                 api_response.raise_for_status()
                 data = api_response.json()
 
-                # Save session data
                 SESSION_STORE[session_id] = session_data
 
                 gpt_response = data.get("reply", "")
                 resp.message(gpt_response)
 
-                # If products are mentioned
+                # If products are mentioned, attach them with images
                 mentioned_products = data.get("mentioned_products", [])
                 for product in mentioned_products:
                     product_title = product["title"]
                     product_desc = product["description"]
+                    image_url = product.get("image_link", product.get("link", ""))
+
                     product_msg = (
                         f"*{product_title}*\n{product_desc}\n"
                         f"Reply with: DETAILS {product_title} to see more."
                     )
-                    resp.message(product_msg)
+                    msg = resp.message(product_msg)
+                    if image_url:
+                        msg.media(image_url)
 
             except RequestException as e:
                 logger.error(f"API request failed: {e}")
                 resp.message("Sorry, I'm having trouble connecting to the server. Please try again later.")
-    
+
     return str(resp)
 
-def get_product_details(product_title):
+
+def get_product_details(product_title: str) -> str:
     """
-    Mimics the callback query logic from the Telegram bot.
-    Loads the JSON file, finds the product, returns a details string.
+    Loads 'company-information.json', finds the requested product, returns a details string.
+    Similar logic to the Telegram callback query approach.
     """
     try:
         with open("company-information.json", "r", encoding="utf-8") as f:
             data = json.load(f)
             products = data.get("products", [])
 
-        # Case-insensitive match
+        # Find product by matching title (case-insensitive)
         product = next((p for p in products if p["title"].lower() == product_title.lower()), None)
         if product:
-            detailed_description = product.get('detailed_description', {})
-            details_str = parse_detailed_description(detailed_description)
-            
-            # Build the final message
+            details_str = parse_detailed_description(product.get("detailed_description", {}))
             response = (
-                f"*{product['title']}*\n"
-                f"{product['description']}\n\n"
+                f"*{product['title']}*\n{product['description']}\n\n"
                 f"{details_str}\n"
-                f"View Product: {product.get('product_url', 'No URL')}"
+                f"View Product: {product.get('product_url', 'No URL available')}"
             )
             return response
         else:
-            return f"Sorry, I couldn't find details for the product '{product_title}'."
+            return f"Sorry, I couldn't find details for '{product_title}'."
     except Exception as e:
-        logger.error(f"Error reading product data: {e}")
+        logger.error(f"Error loading product details: {e}")
         return "Error loading product details. Please try again later."
 
-def parse_detailed_description(detailed_desc):
+
+def parse_detailed_description(detailed_desc) -> str:
     """
-    Convert a nested dict/list structure into user-friendly text (like the Telegram version).
+    Converts nested dict or list to user-friendly text lines.
     """
     if isinstance(detailed_desc, dict):
         final_str = ""
@@ -201,6 +193,7 @@ def parse_detailed_description(detailed_desc):
         return detailed_desc
     else:
         return "No detailed description available."
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
